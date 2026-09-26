@@ -410,7 +410,7 @@ with DAG(
         ),
 
         "end_time": Param(
-            default="00:00:30",
+            default="00:00:09",
             type="string",
             title="Video End Time",
             description="Enter end time in HH:MM:SS.",
