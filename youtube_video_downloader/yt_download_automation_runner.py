@@ -363,6 +363,8 @@ with DAG(
     schedule=None,
 
     catchup=False,
+    
+    max_active_runs=1,
 
     tags=[
         "youtube",
