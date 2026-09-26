@@ -356,7 +356,7 @@ ATTRIBUTION URL
 # ============================================================
 
 with DAG(
-    dag_id="youtube_clip_generator",
+    dag_id="yt_download_automation_runner",
 
     start_date=datetime(2026, 1, 1),
 
