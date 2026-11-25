@@ -816,8 +816,8 @@ with DAG(
         ),
 
         "election_filter": Param(
-            default="",
-            type="string",
+            default=None,
+            type=["null", "string"],
             title="Election Filter",
             description=(
                 "Only scrape elections whose name contains this text "
@@ -826,8 +826,8 @@ with DAG(
         ),
 
         "state_filter": Param(
-            default="",
-            type="string",
+            default=None,
+            type=["null", "string"],
             title="State Filter",
             description="Only scrape states whose name contains this text. Leave empty for ALL states.",
         ),
